@@ -1,0 +1,11 @@
+{
+  "python_version": "3.12",
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./agent.py:graph"
+  },
+  "env": ".env",
+  "dockerfile_lines": [
+    "RUN apt update && apt install -y git"
+  ]
+}
